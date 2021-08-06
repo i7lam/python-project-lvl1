@@ -28,7 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Install dependencies 
         run: |
-        pip install poetry 
-        make install
-        make lint
+          pip install poetry 
+          make install
+          make lint
 
